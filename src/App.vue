@@ -1,18 +1,21 @@
 <template>
   <div id="app">
     <!-- <FormValid /> -->
-    <DashBoard />
+    <!-- <DashBoard /> -->
+    <ClientMakeMapping />
   </div>
 </template>
 
 <script>
 //import FormValid from "./components/FormValid.vue";
-import DashBoard from "./components/DashBoard.vue";
+//import DashBoard from "./components/DashBoard.vue";
+import ClientMakeMapping from "./components/ClientMakeMapping.vue";
 export default {
   name: "App",
   components: {
     // FormValid,
-    DashBoard,
+    //DashBoard,
+    ClientMakeMapping,
   },
 };
 </script>
