@@ -3,7 +3,8 @@
     <!-- <FormValid /> -->
     <!-- <DashBoard /> -->
     <!-- <ClientMakeMapping /> -->
-    <ClientVariantMapping />
+    <!-- <ClientVariantMapping /> -->
+    <ClientModelMapping />
   </div>
 </template>
 
@@ -11,14 +12,16 @@
 //import FormValid from "./components/FormValid.vue";
 //import DashBoard from "./components/DashBoard.vue";
 //import ClientMakeMapping from "./components/ClientMakeMapping.vue";
-import ClientVariantMapping from "./components/ClientVariantMapping.vue";
+// import ClientVariantMapping from "./components/ClientVariantMapping.vue";
+import ClientModelMapping from "./components/ClientModelMapping.vue";
 export default {
   name: "App",
   components: {
     // FormValid,
     //DashBoard,
     //  ClientMakeMapping,
-    ClientVariantMapping,
+    //ClientVariantMapping,
+    ClientModelMapping,
   },
 };
 </script>
