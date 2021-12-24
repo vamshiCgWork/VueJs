@@ -2,20 +2,23 @@
   <div id="app">
     <!-- <FormValid /> -->
     <!-- <DashBoard /> -->
-    <ClientMakeMapping />
+    <!-- <ClientMakeMapping /> -->
+    <ClientVariantMapping />
   </div>
 </template>
 
 <script>
 //import FormValid from "./components/FormValid.vue";
 //import DashBoard from "./components/DashBoard.vue";
-import ClientMakeMapping from "./components/ClientMakeMapping.vue";
+//import ClientMakeMapping from "./components/ClientMakeMapping.vue";
+import ClientVariantMapping from "./components/ClientVariantMapping.vue";
 export default {
   name: "App",
   components: {
     // FormValid,
     //DashBoard,
-    ClientMakeMapping,
+    //  ClientMakeMapping,
+    ClientVariantMapping,
   },
 };
 </script>
