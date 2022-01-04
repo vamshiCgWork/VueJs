@@ -99,7 +99,7 @@
     <button type="button" class="btn bg-theme-pr px-5">Approve</button>
   </div>
 
-  <!-- <div class="">
+  <div class="">
     <table class="table">
       <thead class="thead bg-skyBlue">
         <tr>
@@ -166,7 +166,7 @@
       </button>
       <button type="button" class="btn bg-theme-pr px-5">Approve</button>
     </div>
-  </div> -->
+  </div>
 </template>
 
 <script>

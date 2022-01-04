@@ -4,7 +4,9 @@
     <!-- <DashBoard /> -->
     <!-- <ClientMakeMapping /> -->
     <!-- <ClientVariantMapping /> -->
-    <ClientModelMapping />
+    <!-- <ClientModelMapping /> -->
+    <!-- <AddNewVehicle /> -->
+    <UploadPricing />
   </div>
 </template>
 
@@ -12,16 +14,20 @@
 //import FormValid from "./components/FormValid.vue";
 //import DashBoard from "./components/DashBoard.vue";
 //import ClientMakeMapping from "./components/ClientMakeMapping.vue";
-// import ClientVariantMapping from "./components/ClientVariantMapping.vue";
-import ClientModelMapping from "./components/ClientModelMapping.vue";
+//import ClientVariantMapping from "./components/ClientVariantMapping.vue";
+//import ClientModelMapping from "./components/ClientModelMapping.vue";
+//import AddNewVehicle from "./components/AddNewVehicle.vue";
+import UploadPricing from "./components/UploadPricing.vue";
 export default {
   name: "App",
   components: {
-    // FormValid,
+    //FormValid,
     //DashBoard,
     //  ClientMakeMapping,
     //ClientVariantMapping,
-    ClientModelMapping,
+    //ClientModelMapping,
+    //AddNewVehicle,
+    UploadPricing,
   },
 };
 </script>
